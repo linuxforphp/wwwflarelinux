@@ -1,23 +1,45 @@
-<header>
-    <nav class="navbar navbar-expand-md navbar-default fixed-top shadow-lg">
+<!-- preloader -->
+<div id="preloader">
+    <div class="loder-box">
+        <div class="battery"></div>
+    </div>
+</div>
+<!-- end preloader -->
+
+<!--
+Fixed Navigation
+==================================== -->
+<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+    <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <!-- responsive nav button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?=$view['links']['Home'] ?>"><img src="<?=$view['logo'] ?>" alt="Logo" style="max-width: 42px"><b><?=$view['title'] ?></b></a>
+            <!-- /responsive nav button -->
+
+            <!-- logo -->
+            <h1 class="navbar-brand">
+                <a href="#body">Flare Linux</a>
+            </h1>
+            <!-- /logo -->
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <?php foreach($view['links'] as $key => $value): ?>
-                    <li class="nav-item"><?php echo '<a class="nav-link" href="' . $value . '">' . $key . '</a>' ?></li>
-                <?php endforeach; ?>
+
+        <!-- main nav -->
+        <nav class="collapse navbar-collapse navbar-right" role="navigation">
+            <ul id="nav" class="nav navbar-nav">
+                <li><a href="#body">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#howto">Try Now</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+        <!-- /main nav -->
+
+    </div>
 </header>
+<!--
+End Fixed Navigation
+==================================== -->

@@ -11,7 +11,7 @@ $baseConfig['routes'] = [
         '/index[/{action}]',
         'index',
     ],
-    [
+    /*[
         ['GET', 'POST'],
         '/products[/{action}[/{id:[0-9]+}]]',
         'products',
@@ -25,5 +25,5 @@ $baseConfig['routes'] = [
         'GET',
         '/admin[/{action}]',
         'specialmodule/index',
-    ],
+    ],*/
 ];

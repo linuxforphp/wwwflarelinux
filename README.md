@@ -1,44 +1,49 @@
-# [![LightMVC Banner](https://github.com/lightmvc/lightmvcskel/raw/master/public/img/lightmvc_logo.png)](https://lightmvcframework.net/)
-# LightMVC Framework Skeleton Application
+# FLARE LINUX WEBSITE
+*********************
 
-https://lightmvcframework.net
+https://flarelinux.xyz
 
-Easily create PHP applications by using any PHP library within this very modular, event-driven and Swoole-enabled framework!
+## Run a Flare server node on your computer now!
+*******************************************
 
-## HOWTO
+### Requirements:
 
-You can use the **LightMVC Skeleton Application** by issuing these commands:
+* Docker is installed on your computer: https://docs.docker.com/get-docker/,
+* An additional 1 Gb of RAM for each Node server you wish to run on your computer,
+* 20 Gb of storage (HDD or SSD),
 
-    $ git clone https://github.com/lightmvc/lightmvcskel
-    $ cd lightmvcskel
-    $ composer install
+### Follow these steps:
 
-> The LightMVC Skeleton Application can also be downloaded as an archive file from the https://lightmvcframework.net/download.
+* Open a Bash or a ZSH terminal (Mac or Linux), or a Powershell CLI (Windows),
+* Enter the following command in the terminal, and wait for the server to finish bootstrapping (approx. 5 minutes):
 
-Once the previous step is done:
+$ docker run -it --rm -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.0.0-beta flare --coston
 
-* Add a virtual host definition in the Apache configuration file.
-* Add your database configuration to config/config.local.php,
-* Load the included test database data/db_schema.sql and data/db_data.sql,
-* Load the application in your favorite browser.
+**PLEASE NOTE** : You can run the server in detached mode by adding the 'd' option, like so: docker run -dit [...]
 
-> Please make sure that the server can write to the cache/, logs/ and templates_c/ folders!
+### Start testing the Flare API:
 
-The **LightMVC Framework Skeleton Application** can also run on Swoole in order to make it lightning fast. In order
-to do so, you must make sure to install Swoole. From the CLI, as the root user, type the following:
+* Use Postman (https://www.postman.com/) to start querying your server's API: https://youtu.be/NPvu6xJ7tsk?t=2447,
+* Make sure the "P" and "C" chains are bootstrapped, before making other queries!
 
-    $ pecl install swoole
+### Validate a real XRP transaction:
 
-After answering a few questions, Swoole will be compiled and installed. Then, run the following command (on Linux/Unix/Mac):
+* Open ANOTHER Bash or a ZSH terminal (Mac or Linux), or ANOTHER Powershell CLI (Windows),
+* Enter the following command:
 
-    $ echo "extension=swoole.so" >> /etc/php.ini
+$ docker exec -it my_flare_server /bin/bash
 
-> If running **Swoole** on **Windows**, please add the extension manually in **PHP**'s ``php.ini`` file. The ``php.ini`` file might be located elsewhere on your system. For example, on **Ubuntu** 18.04, when running **PHP** 7.2, you will find this file in ``/etc/php/7.2/apache2``. You can discover the location of this file by entering the command ``php --ini`` on the command line. It must also be mentioned that some systems have multiple INI files (CLI vs Web). Please modify all those that apply.
+* Once you are inside the Docker container, enter these commands to validate an XRP transaction:
 
-Then, from within the root directory of the project, you can run the following command:
+$ cd /root/flare/client
 
-    $ COMPOSER_PROCESS_TIMEOUT=0 composer run-swoole
+$ $( ./bridge.sh xrp ) &
 
-> By default, Swoole will listen on the ``localhost`` loopback, on port 9501. If you wish to change this, please modify the ``run-swoole`` command inside the ``composer.json`` file according to your needs.
+$ node --no-warnings prove xrp FFB44382D074CB37B63AC9D3EB2D829C1D1FE4D54DC1A0BCC1D23BAE18D53272 2>/dev/null
 
-### Have a lot of fun! :)
+* Once you are done testing, you can exit the container by typing 'exit'.
+* To stop the Flare server, please enter the following command:
+
+$ docker stop my_flare_server
+
+# Enjoy your new Flare server!
