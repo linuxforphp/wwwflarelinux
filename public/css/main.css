@@ -777,6 +777,9 @@ ul.external li a:hover {
     border: 3px solid #fff;
     border-radius: 50%;
     display: inline-block;
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
     max-width: 100px;
 }
@@ -1505,3 +1508,22 @@ pre {
     font-weight: bold;
     padding: 5px;
 }
+
+.owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent; }
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: white;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px; }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #D6D6D6; }

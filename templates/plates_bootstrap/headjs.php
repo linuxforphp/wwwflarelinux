@@ -27,11 +27,12 @@
     <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/jquery.fancybox.css">
     <!-- bootstrap.min -->
     <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/bootstrap.min.css">
-    <!-- bootstrap.min -->
-    <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/owl.carousel.css">
-    <!-- bootstrap.min -->
+    <!-- owl.carousel.min -->
+    <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/owl.theme.default.min.css">
+    <!-- slit-slider.css -->
     <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/slit-slider.css">
-    <!-- bootstrap.min -->
+    <!-- animate.css -->
     <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/animate.css">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/main.css">

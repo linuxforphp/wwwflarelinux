@@ -38,28 +38,26 @@
         <div class="overlay">
             <div class="container">
                 <div class="row">
-
                     <div class="sec-title text-center white wow animated fadeInDown">
                         <h2>About Flare Linux</h2>
                     </div>
-
-                    <div id="testimonial" class=" wow animated fadeInUp">
-                        <div class="testimonial-item text-center">
-                            <img src="<?=$view['urlbaseaddr'] ?>img/linuxforphp_logo.svg" alt="About Flare">
+                    <div class="owl-carousel owl-theme wow animated fadeInUp">
+                        <div class="item testimonial-item text-center">
+                            <img src="<?=$view['urlbaseaddr'] ?>img/linuxforphp_logo.svg" alt="About Flare Linux">
                             <div class="clearfix">
                                 <span>Flare Linux (LfPHP/ASCLinux)</span>
                                 <p>Flare Linux is a custom-built GNU/Linux stack to run Flare server nodes.<br />Please visit our website: <a class="text-white" href="https://linuxforphp.net" target="_blank">linuxforphp.net</a>.</p>
                             </div>
                         </div>
-                        <div class="testimonial-item text-center">
-                            <img src="<?=$view['urlbaseaddr'] ?>img/flare.jpg" alt="About Flare">
+                        <div class="item testimonial-item text-center">
+                            <img src="<?=$view['urlbaseaddr'] ?>img/flare.jpg" alt="About Flare Networks">
                             <div class="clearfix">
                                 <span>Flare Networks</span>
                                 <p>Unleashing Value. Around 65% of the value of Blockchain Tokens is inaccessible to decentralised applications. That changes now. Please visit the <a href="https://flare.xyz" target="_blank">Flare website</a>.</p>
                             </div>
                         </div>
-                        <div class="testimonial-item text-center">
-                            <img src="<?=$view['urlbaseaddr'] ?>img/xrpl_logo_dark_squared.jpg" alt="About Flare">
+                        <div class="item testimonial-item text-center">
+                            <img src="<?=$view['urlbaseaddr'] ?>img/xrpl_logo_dark_squared.jpg" alt="About XRPL">
                             <div class="clearfix">
                                 <span>XRP Ledger (XRPL)</span>
                                 <p>XRP is a digital asset built for payments. It is the native digital asset on the XRP Ledger — <br />
@@ -71,7 +69,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

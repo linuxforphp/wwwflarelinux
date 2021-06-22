@@ -35,6 +35,31 @@
     feather.replace()
 </script>
 
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            nav:true,
+            autoplay:true,
+            autoplayTimeout:4000,
+            autoplayHoverPause:true,
+            margin:1,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+    });
+</script>
+
 <?php foreach($view['jsscripts'] as $key => $value): ?>
     <?php echo $value ?>
 <?php endforeach; ?>
