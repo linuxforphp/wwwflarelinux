@@ -13,7 +13,8 @@
                     </ul>
                 </div>
 
-                <p>Copyright &copy; 2017-<?=date('Y') ?> <a href="https://etista.com"><?=$view['author'] ?></a> </p>
+                <p>Powered by the <a href="https://lightmvcframework.com" target="_blank">LightMVC Framework</a> and templates by <a href="https://themefisher.com" target="_blank">ThemeFisher</a>.</p>
+                <p>Copyright &copy; 2017-<?=date('Y') ?> <a href="https://etista.com" target="_blank"><?=$view['author'] ?></a></p>
             </div>
         </div>
     </div>
