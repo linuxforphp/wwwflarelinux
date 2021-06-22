@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="testimonial-item text-center">
-                            <img src="<?=$view['urlbaseaddr'] ?>img/xrpl.jpg" alt="About Flare">
+                            <img src="<?=$view['urlbaseaddr'] ?>img/xrpl_logo_dark_squared.jpg" alt="About Flare">
                             <div class="clearfix">
                                 <span>XRP Ledger (XRPL)</span>
                                 <p>XRP is a digital asset built for payments. It is the native digital asset on the XRP Ledger — <br />
