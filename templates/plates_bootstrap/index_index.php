@@ -46,24 +46,30 @@
                             <img src="<?=$view['urlbaseaddr'] ?>img/linuxforphp_logo.svg" alt="About Flare Linux">
                             <div class="clearfix">
                                 <span>Flare Linux (LfPHP/ASCLinux)</span>
-                                <p>Flare Linux is a custom-built GNU/Linux stack to run Flare server nodes.<br />Please visit our website: <a class="text-white" href="https://linuxforphp.net" target="_blank">linuxforphp.net</a>.</p>
+                                <p>Flare Linux is a custom-built GNU/Linux stack to run Flare server nodes.<br /><br />Please visit our website: <a class="text-white" href="https://linuxforphp.net" target="_blank">linuxforphp.net</a>.</p>
                             </div>
                         </div>
                         <div class="item testimonial-item text-center">
                             <img src="<?=$view['urlbaseaddr'] ?>img/flare.jpg" alt="About Flare Networks">
                             <div class="clearfix">
                                 <span>Flare Networks</span>
-                                <p>Unleashing Value. Around 65% of the value of Blockchain Tokens is inaccessible to decentralised applications. That changes now. Please visit the <a href="https://flare.xyz" target="_blank">Flare website</a>.</p>
+                                <p>Unleashing Value.<br />
+                                    Around 65% of the value of Blockchain Tokens is inaccessible to decentralised applications.<br />
+                                    That changes now.<br /><br />
+                                    Please visit the <a href="https://flare.xyz" target="_blank">Flare website</a>.</p>
                             </div>
                         </div>
                         <div class="item testimonial-item text-center">
                             <img src="<?=$view['urlbaseaddr'] ?>img/xrpl_logo_dark_squared.jpg" alt="About XRPL">
                             <div class="clearfix">
                                 <span>XRP Ledger (XRPL)</span>
-                                <p>XRP is a digital asset built for payments. It is the native digital asset on the XRP Ledger — <br />
-                                    an open-source, permissionless and decentralized blockchain technology<br />
-                                    that can settle transactions in 3-5 seconds.<br />
-                                    It is the best way to move money around the world; the fuel for our growing digital economy.<br />
+                                <p>XRP is a digital asset built for payments.<br />
+                                    It is the native digital asset on the XRP Ledger — <br />
+                                    an open-source, permissionless and decentralized<br />
+                                    blockchain technology that can settle<br />
+                                    transactions in 3-5 seconds.<br /><br />
+                                    It is the best way to move money around the world;<br />
+                                    the fuel for our growing digital economy.<br /><br />
                                     Please visit the <a href="https://xrpl.org" target="_blank">XRPL website</a>.
                                 </p>
                             </div>
