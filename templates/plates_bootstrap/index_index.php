@@ -64,10 +64,6 @@
                             <div class="clearfix">
                                 <span>XRP Ledger (XRPL)</span>
                                 <p>XRP is a digital asset built for payments.<br />
-                                    It is the native digital asset on the XRP Ledger — <br />
-                                    an open-source, permissionless and decentralized<br />
-                                    blockchain technology that can settle<br />
-                                    transactions in 3-5 seconds.<br /><br />
                                     It is the best way to move money around the world;<br />
                                     the fuel for our growing digital economy.<br /><br />
                                     Please visit the <a href="https://xrpl.org" target="_blank">XRPL website</a>.
@@ -90,8 +86,8 @@
                     <h3 class="wow animated bounceInRight">Requirements:</h3>
                     <ul class="text-md">
                         <li class="wow animated bounceInRight">Docker is installed on your computer: <a href="https://docs.docker.com/install/" target="_blank">INSTALL DOCKER</a>,</li>
-                        <li class="wow animated bounceInRight">An additional 1 Gb of RAM for each Node server you wish to run on your computer,</li>
-                        <li class="wow animated bounceInRight">20 Gb of storage (HDD or SSD),</li>
+                        <li class="wow animated bounceInRight">An additional 4 GB of RAM for each Node server you wish to run on your computer,</li>
+                        <li class="wow animated bounceInRight">An additional 25 GB of storage (HDD or SSD),</li>
 
                     </ul>
                     <h3 class="wow animated bounceInLeft">Follow these steps:</h3>
