@@ -109,7 +109,16 @@
             <div class="row text-center">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <p><span class="text-danger">PLEASE NOTE</span><br />You can run the server in detached mode by adding the 'd' option, like so: <i>docker run -dit [...]</i></p>
+                    <hr>
+                    <p>
+                        <span class="text-danger">!! PLEASE NOTE !!</span><br />
+                        You can run the server in detached mode by adding the 'd' option, like so:<br /><br />
+                        <span class="command-styling">docker run -dit [...]</span><br /><br /><br />
+                        You can change the version of the <i>Flare server node</i>, by adding a Git commit hash to end of the command, like so:<br /><br />
+                        <span class="command-styling">docker run [...] flare --coston e9ca17eace0</span><br /><br /><br />
+                        <span class="small">You can find the Flare Network code repository at: <a href="https://gitlab.com/flarenetwork/flare" target="_blank">https://gitlab.com/flarenetwork/flare</a></span>
+                    </p>
+                    <hr>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
