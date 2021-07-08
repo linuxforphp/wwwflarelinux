@@ -10,6 +10,10 @@
 FallbackResource index.php
 
 RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^andrewcayaetistacom17\.linuxforphp\.com$ [NC]
+RewriteRule ^(.*)$ https://flarelinux.xyz/$1 [L,R=301]
+
 # The following rule tells Apache that if the requested filename
 # exists, simply serve it.
 RewriteCond %{REQUEST_FILENAME} -s [OR]
