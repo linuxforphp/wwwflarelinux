@@ -60,6 +60,13 @@
     });
 </script>
 
+<script>
+    function getDocsPageNewTab() {
+        let url = 'https://flare-linux-documentation.readthedocs.io/en/latest/';
+        window.open(url, '_blank').focus();
+    }
+</script>
+
 <?php foreach($view['jsscripts'] as $key => $value): ?>
     <?php echo $value ?>
 <?php endforeach; ?>

@@ -34,10 +34,10 @@ Fixed Navigation
                 <li><a href="#body">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#howto">Try Now</a></li>
+                <li><a href="#" onclick="getDocsPageNewTab()">Documentation</a></li>
             </ul>
         </nav>
         <!-- /main nav -->
-
     </div>
 </header>
 <!--
