@@ -182,7 +182,7 @@
             <div class="row">
                 <div class="sec-title text-center">
                     <ul class="text-md">
-                        <li class="wow animated bounceInLeft">Once you are done testing, you can exit the container by typing <span class="command-styling">exit</span>.</li>
+                        <li class="wow animated bounceInLeft">After you are done testing, you can exit the container by typing <span class="command-styling">exit</span>.</li>
                 </div>
                 <div class="sec-title text-center">
                     <h3 class="wow animated bounceInLeft"></h3>
