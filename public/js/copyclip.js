@@ -10,7 +10,7 @@ function copyClip(button, value) {
 }
 
 document.querySelector('#myDockerCommand1Button').onclick = function() {
-    copyClip('myDockerCommand1Button', 'docker run -it --rm -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.0.0-beta flare --coston');
+    copyClip('myDockerCommand1Button', 'docker run -it --rm -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.0.0-rc1 flare --coston');
 
 }
 
