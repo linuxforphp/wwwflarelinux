@@ -71,5 +71,4 @@ $baseConfig['view'] = [
             'Home' => $baseConfig['URLBASEADDR'] . 'index',
 
         ],
-
 ];
