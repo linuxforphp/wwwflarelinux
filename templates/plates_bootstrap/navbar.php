@@ -34,7 +34,8 @@ Fixed Navigation
                 <li><a href="#body">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#howto">Try Now</a></li>
-                <li><a href="#" onclick="getDocsPageNewTab()">Documentation</a></li>
+                <li><a href="#" onclick="getDocsPageNewTab(1)">Documentation</a></li>
+                <li><a href="#" onclick="getDocsPageNewTab(2)">GitHub</a></li>
             </ul>
         </nav>
         <!-- /main nav -->

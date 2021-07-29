@@ -61,8 +61,16 @@
 </script>
 
 <script>
-    function getDocsPageNewTab() {
-        let url = 'https://flare-linux-documentation.readthedocs.io/en/latest/';
+    function getDocsPageNewTab(option) {
+        console.log(option);
+        let url = '';
+
+        if (option === 1) {
+            url = 'https://flare-linux-documentation.readthedocs.io/en/latest/';
+        } else if (option === 2) {
+            url = 'https://github.com/linuxforphp/flarelinux/';
+        }
+
         window.open(url, '_blank').focus();
     }
 </script>
