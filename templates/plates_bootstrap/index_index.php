@@ -128,66 +128,8 @@
                     <ul class="text-md">
                         <li class="wow animated bounceInRight">Use <a href="https://www.postman.com/" target="_blank">Postman to start querying</a> your server's API: <a href="https://youtu.be/NPvu6xJ7tsk?t=2447" target="_blank">VIDEO TUTORIAL</a>,</li>
                         <li class="wow animated bounceInRight">Make sure the "P" and "C" chains are bootstrapped, before making other queries!</li>
-                    </ul>
-                    <h3 class="wow animated bounceInLeft">Validate a real XRP transaction:</h3>
-                    <ul class="text-md">
-                        <li class="wow animated bounceInLeft">Open <b>ANOTHER</b> Bash or a ZSH terminal (Mac or Linux), or <b>ANOTHER</b> Powershell CLI (Windows),</li>
-                        <li class="wow animated bounceInLeft">Enter the following command:</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
-                    <pre><code class="pre-code-custom">docker exec -it my_flare_server /bin/bash</code></pre>
-                </div>
-                <div class="col-sm-2">
-                    <button id="myDockerCommand2Button"><span data-feather="copy" /></button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="sec-title text-center">
-                    <h3 class="wow animated bounceInRight"></h3>
-                    <ul class="text-md">
-                        <li class="wow animated bounceInRight">Once you are inside the Docker container, enter these commands to validate an XRP transaction:</li>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
-                    <pre><code class="pre-code-custom">cd /root/flare/client</code></pre>
-                </div>
-                <div class="col-sm-2">
-                    <button id="myDockerCommand3Button"><span data-feather="copy" /></button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
-                    <pre><code class="pre-code-custom">$( ./bridge.sh xrp ) &</code></pre>
-                </div>
-                <div class="col-sm-2">
-                    <button id="myDockerCommand4Button"><span data-feather="copy" /></button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
-                    <pre><code class="pre-code-custom">node --no-warnings prove xrp FFB44382D074CB37B63AC9D3EB2D829C1D1FE4D54DC1A0BCC1D23BAE18D53272 2>/dev/null</code></pre>
-                </div>
-                <div class="col-sm-2">
-                    <button id="myDockerCommand5Button"><span data-feather="copy" /></button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="sec-title text-center">
-                    <ul class="text-md">
-                        <li class="wow animated bounceInLeft">After you are done testing, you can exit the container by typing <span class="command-styling">exit</span>.</li>
-                </div>
-                <div class="sec-title text-center">
-                    <h3 class="wow animated bounceInLeft"></h3>
-                    <ul class="text-md">
                         <li class="wow animated bounceInLeft">To stop the Flare server, please enter the following command:</li>
+                    </ul>
                 </div>
             </div>
             <div class="row">
