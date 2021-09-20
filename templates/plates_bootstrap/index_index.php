@@ -93,7 +93,7 @@
                     <h3 class="wow animated bounceInLeft">Follow these steps:</h3>
                     <ul class="text-md">
                         <li class="wow animated bounceInLeft">Open a Bash or a ZSH terminal (Mac or Linux), or a Powershell CLI (Windows),</li>
-                        <li class="wow animated bounceInLeft">Enter the following command in the terminal, and wait for the server to finish bootstrapping (approx. 5 minutes):</li>
+                        <li class="wow animated bounceInLeft">Enter the following command in the terminal, and wait for the server to finish bootstrapping:</li>
                     </ul>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                         You can run the server in detached mode by adding the 'd' option, like so:<br /><br />
                         <span class="command-styling">docker run -dit [...]</span><br /><br /><br />
                         You can change the version of the <i>Flare server node</i>, by adding a Git commit hash to end of the command, like so:<br /><br />
-                        <span class="command-styling">docker run [...] flare --single e9ca17eace0</span><br /><br /><br />
+                        <span class="command-styling">docker run [...] flare --single a1f141b4562</span><br /><br /><br />
                         <span class="small">You can find the Flare Network code repository at: <a href="https://gitlab.com/flarenetwork/flare" target="_blank">https://gitlab.com/flarenetwork/flare</a></span>
                     </p>
                     <hr>
@@ -127,8 +127,8 @@
                     <h3 class="wow animated bounceInRight">Start testing the Flare API:</h3>
                     <ul class="text-md">
                         <li class="wow animated bounceInRight">Use <a href="https://www.postman.com/" target="_blank">Postman to start querying</a> your server's API: <a href="https://youtu.be/NPvu6xJ7tsk?t=2447" target="_blank">VIDEO TUTORIAL</a>,</li>
-                        <li class="wow animated bounceInRight">Make sure the "P" and "C" chains are bootstrapped, before making other queries!</li>
-                        <li class="wow animated bounceInLeft">To stop the Flare server, please enter the following command:</li>
+                        <li class="wow animated bounceInLeft">Make sure the "P" and "C" chains are bootstrapped, before making other queries!</li>
+                        <li class="wow animated bounceInRight">To stop the Flare server, please enter the following command:</li>
                     </ul>
                 </div>
             </div>
