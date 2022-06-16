@@ -100,7 +100,7 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <pre><code class="pre-code-custom">docker run -it --rm -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.0.0-rc2 flare --coston</code></pre>
+                    <pre><code class="pre-code-custom">docker run -it --rm -e FLARE_BIND_ADDRESS=0.0.0.0 -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.0.0 flare --coston</code></pre>
                 </div>
                 <div class="col-sm-2">
                     <button id="myDockerCommand1Button"><span data-feather="copy" /></button>
@@ -114,9 +114,7 @@
                         <span class="text-danger">!! PLEASE NOTE !!</span><br />
                         You can run the server in detached mode by adding the 'd' option, like so:<br /><br />
                         <span class="command-styling">docker run -dit [...]</span><br /><br /><br />
-                        You can change the version of the <i>Flare server node</i>, by adding a Git commit hash to end of the command, like so:<br /><br />
-                        <span class="command-styling">docker run [...] flare --single a1f141b4562</span><br /><br /><br />
-                        <span class="small">You can find the Flare Network code repository at: <a href="https://gitlab.com/flarenetwork/flare" target="_blank">https://gitlab.com/flarenetwork/flare</a></span>
+                        <span class="small">You can find the Flare Network code repository at: <a href="https://github.com/flare-foundation/flare" target="_blank">https://github.com/flare-foundation/flare</a></span>
                     </p>
                     <hr>
                 </div>
@@ -135,7 +133,7 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <pre><code class="pre-code-custom">docker stop my_flare_server</code></pre>
+                    <pre><code class="pre-code-custom">docker rm -f my_flare_server</code></pre>
                 </div>
                 <div class="col-sm-2">
                     <button id="myDockerCommand6Button"><span data-feather="copy" /></button>
