@@ -86,8 +86,8 @@
                     <h3 class="wow animated bounceInRight">Requirements:</h3>
                     <ul class="text-md">
                         <li class="wow animated bounceInRight">Docker is installed on your computer: <a href="https://docs.docker.com/install/" target="_blank">INSTALL DOCKER</a>,</li>
-                        <li class="wow animated bounceInRight">An additional 4 GB of RAM for each Node server you wish to run on your computer,</li>
-                        <li class="wow animated bounceInRight">An additional 25 GB of storage (HDD or SSD),</li>
+                        <li class="wow animated bounceInRight">An additional 8 GB of RAM for each Node server you wish to run on your computer,</li>
+                        <li class="wow animated bounceInRight">An additional 100 GB of storage (HDD or SSD),</li>
 
                     </ul>
                     <h3 class="wow animated bounceInLeft">Follow these steps:</h3>
@@ -100,7 +100,7 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <pre><code class="pre-code-custom">docker run -it --rm -e FLARE_BIND_ADDRESS=0.0.0.0 -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.0.0 flare --coston</code></pre>
+                    <pre><code class="pre-code-custom">docker run -dit --rm -e FLARE_BIND_ADDRESS=0.0.0.0 -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.0.0 flare --coston</code></pre>
                 </div>
                 <div class="col-sm-2">
                     <button id="myDockerCommand1Button"><span data-feather="copy" /></button>
@@ -112,8 +112,8 @@
                     <hr>
                     <p>
                         <span class="text-danger">!! PLEASE NOTE !!</span><br />
-                        You can run the server in detached mode by adding the 'd' option, like so:<br /><br />
-                        <span class="command-styling">docker run -dit [...]</span><br /><br /><br />
+                        You can run the server in interactive mode by removing the 'd' option, like so:<br /><br />
+                        <span class="command-styling">docker run -it [...]</span><br /><br /><br />
                         <span class="small">You can find the Flare Network code repository at: <a href="https://github.com/flare-foundation/flare" target="_blank">https://github.com/flare-foundation/flare</a></span>
                     </p>
                     <hr>
@@ -125,7 +125,7 @@
                     <h3 class="wow animated bounceInRight">Start testing the Flare API:</h3>
                     <ul class="text-md">
                         <li class="wow animated bounceInRight">Use <a href="https://www.postman.com/" target="_blank">Postman to start querying</a> your server's API: <a href="https://youtu.be/NPvu6xJ7tsk?t=2447" target="_blank">VIDEO TUTORIAL</a>,</li>
-                        <li class="wow animated bounceInLeft">Make sure the "P" and "C" chains are bootstrapped, before making other queries!</li>
+                        <li class="wow animated bounceInLeft">Make sure the "C" chain is bootstrapped (/home/flareuser/.flare/logs/C.log), before making other queries!</li>
                         <li class="wow animated bounceInRight">To stop the Flare server, please enter the following command (or press <span class="command-styling">Ctrl+C</span>):</li>
                     </ul>
                 </div>
