@@ -62,7 +62,6 @@
 
 <script>
     function getDocsPageNewTab(option) {
-        console.log(option);
         let url = '';
 
         if (option === 1) {
