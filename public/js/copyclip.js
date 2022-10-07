@@ -10,7 +10,7 @@ function copyClip(button, value) {
 }
 
 document.querySelector('#myDockerCommand1Button').onclick = function() {
-    copyClip('myDockerCommand1Button', 'docker run -dit --rm -e FLARE_BIND_ADDRESS=0.0.0.0 -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.0.1 flare --coston');
+    copyClip('myDockerCommand1Button', 'docker run -dit --restart=always -e FLARE_BIND_ADDRESS=0.0.0.0 -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.1.0 flare --flare-coston1');
 }
 
 document.querySelector('#myDockerCommand2Button').onclick = function() {
