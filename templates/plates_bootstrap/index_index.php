@@ -84,14 +84,14 @@
                 <div class="sec-title text-center">
                     <h2 class="wow animated bounceInLeft">Run a Flare server node on your computer now!</h2>
                     <h3 class="wow animated bounceInRight">Requirements:</h3>
-                    <ul class="text-md">
+                    <ul class="text-md howtoflarelinux">
                         <li class="wow animated bounceInRight">Docker is installed on your computer: <a href="https://docs.docker.com/install/" target="_blank">INSTALL DOCKER</a>,</li>
                         <li class="wow animated bounceInRight">An additional 16 GB of RAM for each Node server you wish to run on your computer,</li>
                         <li class="wow animated bounceInRight">An additional 500 GB of storage (HDD or SSD),</li>
 
                     </ul>
                     <h3 class="wow animated bounceInLeft">Follow these steps:</h3>
-                    <ul class="text-md">
+                    <ul class="text-md howtoflarelinux">
                         <li class="wow animated bounceInLeft">Open a Bash or a ZSH terminal (Mac or Linux), or a Powershell CLI (Windows),</li>
                         <li class="wow animated bounceInLeft">Enter the following command in the terminal, and wait for the server to finish bootstrapping:</li>
                     </ul>
@@ -123,7 +123,7 @@
             <div class="row">
                 <div class="sec-title text-center">
                     <h3 class="wow animated bounceInRight">Start testing the Flare API:</h3>
-                    <ul class="text-md">
+                    <ul class="text-md howtoflarelinux">
                         <li class="wow animated bounceInRight">Use <a href="https://www.postman.com/" target="_blank">Postman to start querying</a> your server's API: <a href="https://youtu.be/NPvu6xJ7tsk?t=2447" target="_blank">VIDEO TUTORIAL</a>,</li>
                         <li class="wow animated bounceInLeft">Make sure the "C" chain is bootstrapped (/home/flareuser/.flare/logs/C.log), before making other queries!</li>
                         <li class="wow animated bounceInRight">To stop the Flare server, please enter the following command (or press <span class="command-styling">Ctrl+C</span>):</li>

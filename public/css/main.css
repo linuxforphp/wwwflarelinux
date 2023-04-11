@@ -51,6 +51,15 @@ h1, h2, h3, h4, h5, h6,
     color: #252525;
 }
 
+ul.howtoflarelinux {
+    padding: 0;
+}
+
+.howtoflarelinux > li {
+    padding-left: 1em;
+    list-style-position: inside;
+}
+
 .site-content {
     background-color: #fff;
     color: #818181;
