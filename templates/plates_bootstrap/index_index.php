@@ -100,7 +100,7 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <pre><code class="pre-code-custom">docker run -dit --restart=always -e FLARE_BIND_ADDRESS=0.0.0.0 -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.1.2 flare --flare-coston2</code></pre>
+                    <pre><code class="pre-code-custom">docker run -dit --restart=always -e FLARE_BIND_ADDRESS=0.0.0.0 -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.1.2-1.7.1806 flare --flare-coston2</code></pre>
                 </div>
                 <div class="col-sm-2">
                     <button id="myDockerCommand1Button"><span data-feather="copy" /></button>
