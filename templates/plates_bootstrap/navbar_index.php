@@ -41,8 +41,8 @@ Fixed Navigation
         <div id="navigation-menu">
             <nav id="main-nav" class="collapse navbar-collapse navbar-left" role="navigation">
                 <ul id="nav" class="nav navbar-nav">
-                    <li><a href="#" onclick="getDocsPageNewTab(1, '<?=$view['urlbaseaddr']?>')">Home</a></li>
-                    <li><a href="#" onclick="getDocsPageNewTab(1, '<?=$view['urlbaseaddr']?>/#about')">About</a></li>
+                    <li><a href="#body">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#" onclick="getDocsPageNewTab(1, 'https://flare-linux-documentation.readthedocs.io/en/latest/')">Documentation</a></li>
                 </ul>
             </nav>

@@ -11,7 +11,7 @@
 <?php endif ?>
 
 <body id="body">
-<?=$this->section('navbar', $this->fetch('navbar', ['view' => $view]))?>
+<?=$this->section('navbar', $this->fetch('navbar_index', ['view' => $view]))?>
 
 <main class="site-content" role="main">
 
