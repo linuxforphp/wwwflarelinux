@@ -1230,8 +1230,10 @@
     // Public
     _proto.toggle = function toggle() {
       if ($(this._element).hasClass(ClassName$3.SHOW)) {
+        $("#navigation").toggleClass("open", false);
         this.hide();
       } else {
+        $("#navigation").toggleClass("open", true);
         this.show();
       }
     };
@@ -1340,6 +1342,7 @@
             var $elem = $([].slice.call(document.querySelectorAll(selector)));
 
             if (!$elem.hasClass(ClassName$3.SHOW)) {
+              $("#navigation").toggleClass("open", false);
               $(trigger).addClass(ClassName$3.COLLAPSED).attr('aria-expanded', false);
             }
           }
@@ -1413,6 +1416,7 @@
       var isOpen = $(element).hasClass(ClassName$3.SHOW);
 
       if (triggerArray.length) {
+        $("#navigation").toggleClass("open", !isOpen);
         $(triggerArray).toggleClass(ClassName$3.COLLAPSED, !isOpen).attr('aria-expanded', isOpen);
       }
     } // Static

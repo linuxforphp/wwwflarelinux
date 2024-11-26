@@ -12,7 +12,7 @@
 <!-- feather.min.js -->
 <script src="<?=$view['urlbaseaddr'] ?>js/feather.min.js"></script>
 <!-- Twitter Bootstrap -->
-<script src="<?=$view['urlbaseaddr'] ?>js/bootstrap.min.js"></script>
+<script src="<?=$view['urlbaseaddr'] ?>js/bootstrap.js"></script>
 <!-- Single Page Nav -->
 <script src="<?=$view['urlbaseaddr'] ?>js/jquery.singlePageNav.min.js"></script>
 <!-- jquery.fancybox.pack -->
@@ -26,8 +26,6 @@
 <script src="<?=$view['urlbaseaddr'] ?>js/jquery.ba-cond.min.js"></script>
 <!-- onscroll animation -->
 <script src="<?=$view['urlbaseaddr'] ?>js/wow.min.js"></script>
-<!-- copyclip functions -->
-<script src="<?=$view['urlbaseaddr'] ?>js/copyclip.js"></script>
 <!-- Custom functions -->
 <script src="<?=$view['urlbaseaddr'] ?>js/main.js"></script>
 
@@ -61,22 +59,39 @@
 </script>
 
 <script>
-    function getDocsPageNewTab(option) {
+    function getDocsPageNewTab(option, delegationurl = null) {
         let url = '';
 
         if (option === 1) {
-            url = 'https://flare-linux-documentation.readthedocs.io/en/latest/';
-        } else if (option === 2) {
-            url = 'https://github.com/linuxforphp/flarelinux/';
-        }
+            url = delegationurl;
 
-        window.open(url, '_blank').focus();
+            location.href = url;
+        } else if (option === 2) {
+            url = 'https://flare.xyz/ftso-a-breakdown/';
+
+            window.open(url, '_blank').focus();
+        } else if (option === 3) {
+            url = 'https://portal.flare.network/';
+
+            window.open(url, '_blank').focus();
+        } else if (option === 4) {
+            url = 'https://flare-explorer.flare.network/';
+
+            window.open(url, '_blank').focus();
+        } else if (option === 5) {
+            url = 'https://metamask.io/download/';
+
+            window.open(url, '_blank').focus();
+        }
     }
 </script>
 
 <?php foreach($view['jsscripts'] as $key => $value): ?>
     <?php echo $value ?>
 <?php endforeach; ?>
+
+<!-- Custom alert box -->
+<script src="<?=$view['urlbaseaddr'] ?>js/jquery-confirm.min.js"></script>
 
 <!-- Modernizer Script for old Browsers -->
 <script src="<?=$view['urlbaseaddr'] ?>js/modernizr-2.6.2.min.js"></script>
