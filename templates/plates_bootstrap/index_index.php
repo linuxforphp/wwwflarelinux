@@ -32,7 +32,7 @@
                         <img style="max-width: 100%;" src="<?=$view['urlbaseaddr']?>/img/slider/shape-blue.png">
                     </div>
                     <div class="h1" style="color: #fff;">
-                        <span style="color: #fff; opacity: .3; text-transform: uppercase;" class="lead">A sub-project of LFPHP</span><br />
+                        <span style="color: #fff; opacity: .3; text-transform: uppercase;" class="lead">An LFPHP sub-project</span><br />
                         Flare Linux<br />
                         <span style="color: #fff; opacity: .7;" class="lead">A custom-built GNU/Linux stack to run Flare server nodes</span>
                     </div><br />
@@ -53,6 +53,12 @@
                     <img style="max-width: 100%;" src="<?=$view['urlbaseaddr']?>/img/slider/shape-orange.557de308.svg">
                 </div>
                 <div class="shape-4">
+                    <img style="max-width: 100%;" src="<?=$view['urlbaseaddr']?>/img/slider/shape-blue.png">
+                </div>
+                <div class="shape-5">
+                    <img style="max-width: 100%;" src="<?=$view['urlbaseaddr']?>/img/slider/shape-orange.557de308.svg">
+                </div>
+                <div class="shape-6">
                     <img style="max-width: 100%;" src="<?=$view['urlbaseaddr']?>/img/slider/shape-blue.png">
                 </div>
                 <div class="row card" style="padding-top: 1px; padding-bottom: 20px;">
@@ -91,12 +97,6 @@
 
     <section id="howto" class="main-section-padding" style="padding-bottom: 0;">
         <div class="container">
-            <div class="shape-5">
-                <img style="max-width: 100%;" src="<?=$view['urlbaseaddr']?>/img/slider/shape-orange.557de308.svg">
-            </div>
-            <div class="shape-6">
-                <img style="max-width: 100%;" src="<?=$view['urlbaseaddr']?>/img/slider/shape-blue.png">
-            </div>
             <div class="row card" style="padding-top: 1px; padding-bottom: 20px;">
                 <div class="row">
                     <div class="sec-title text-center white wow animated fadeInDown animated">

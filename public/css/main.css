@@ -66,6 +66,11 @@
     padding-right: 15px;
 }
 
+.navbar-collapse {
+    border: none !important;
+    box-shadow: none !important;
+}
+
 .container {
     width: 100%;
     margin-left: 0;
@@ -159,11 +164,11 @@ ul.howtoflarelinux {
 }
 
 .shape-3 {
-    position: absolute; pointer-events: none; right: -60%; top: 75%; width: 200%; z-index: -1;
+    position: absolute; pointer-events: none; right: -50%; top: 75%; width: 200%; z-index: -1;
 }
 
 .shape-4 {
-    position: absolute; pointer-events: none; right: -200%; top: 130%; width: 250%; z-index: -1;
+    position: absolute; pointer-events: none; right: -215%; top: 130%; width: 250%; z-index: -1;
 }
 
 .shape-5 {
@@ -171,7 +176,7 @@ ul.howtoflarelinux {
 }
 
 .shape-6 {
-    position: absolute; pointer-events: none; right: -175%; top: 320%; width: 200%; z-index: -1;
+    position: absolute; pointer-events: none; right: -175%; bottom: -310%; width: 200%; z-index: -1;
 }
 
 .jumbotron {
@@ -1673,7 +1678,7 @@ textarea.form-control {
 
     .shape-6 {
         right: -155%;
-        top: 170%;
+        bottom: -170%;
     }
 
     /* home slider  */
@@ -1793,7 +1798,7 @@ textarea.form-control {
 
     .shape-4 {
         right: -150%;
-        top: -140%;
+        top: 140%;
         width: 200%;
     }
 
@@ -1803,7 +1808,7 @@ textarea.form-control {
 
     .shape-6 {
         right: -145%;
-        top: 330%;
+        bottom: -330%;
     }
 
     .jumbotron-padding {
@@ -2153,7 +2158,7 @@ textarea.form-control {
 
     .shape-6 {
         right: -145%;
-        top: 550%;
+        bottom: -550%;
     }
 
     .jumbotron-content {
@@ -2259,7 +2264,7 @@ textarea.form-control {
 
     .navbar-nav li {
         width: 100% !important;
-        height: 40px;
+        height: 75px;
         overflow: hidden;
     }
 
