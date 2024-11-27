@@ -32,7 +32,7 @@
                         <img style="max-width: 100%;" src="<?=$view['urlbaseaddr']?>/img/slider/shape-blue.png">
                     </div>
                     <div class="h1" style="color: #fff;">
-                        <span style="color: #fff; opacity: .3; text-transform: uppercase;" class="lead">An LFPHP sub-project</span><br />
+                        <span style="color: #fff; opacity: .3; text-transform: uppercase;" class="lead">An LFPHP project</span><br />
                         Flare Linux<br />
                         <span style="color: #fff; opacity: .7;" class="lead">A custom-built GNU/Linux stack to run Flare server nodes</span>
                     </div><br />
