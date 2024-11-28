@@ -105,7 +105,7 @@
                         </div>
                         <div class="row" style="margin-right: 15px; margin-left: 15px;">
                             <div class="col-md-6">
-                                <h3 class="wow animated fadeInDown" style="color: #ed658c; font-weight: bold; visibility: visible; animation-name: ;">Requirements:</h3>
+                                <h3 class="wow animated fadeInDown pink">Requirements:</h3>
                                 <ul class="text-md howtoflarelinux">
                                     <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">Docker is installed on your computer: <a class="dark-link" href="https://docs.docker.com/install/" target="_blank">INSTALL DOCKER</a>,</li>
                                     <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">An additional 16 GB of RAM for each Node you wish to run on your computer,</li>
@@ -113,7 +113,7 @@
                                 </ul>
                             </div>
                             <div class="col-md-6">
-                            <h3 class="wow animated fadeInDown" style="color: #54b3d6; font-weight: bold; visibility: visible; animation-name: ;">Follow these steps:</h3>
+                            <h3 class="wow animated fadeInDown blue">Follow these steps:</h3>
                                 <ul class="text-md howtoflarelinux">
                                     <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">Open a Bash or a ZSH terminal (Mac or Linux), or a Powershell CLI (Windows),</li>
                                     <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">Enter the following command in the terminal, and wait for the server to finish bootstrapping:</li>
@@ -149,7 +149,7 @@
                 </div>
                 <div class="row">
                     <div class="sec-title text-center">
-                        <h3 class="wow animated fadeInDown" style="color: #54b3d6; font-weight: bold; visibility: visible; animation-name: ;">Start testing the <i style="text-decoration: underline #ed658c; font-style: normal;">Flare</i> API:</h3>
+                        <h3 class="wow animated fadeInDown blue">Start testing the <i style="text-decoration: underline #ed658c; font-style: normal;">Flare</i> API:</h3>
                         <ul class="text-md howtoflarelinux">
                             <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">Use <a class="dark-link" href="https://www.postman.com/" target="_blank">Postman</a> to start querying your server's API: <a class="dark-link" href="https://youtu.be/NPvu6xJ7tsk?t=2447" target="_blank">VIDEO TUTORIAL</a>,</li>
                             <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">Make sure the "C" chain is bootstrapped (/home/flareuser/.flare/logs/C.log), before making other queries!</li>
