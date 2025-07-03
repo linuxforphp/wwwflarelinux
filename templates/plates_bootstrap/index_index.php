@@ -36,7 +36,7 @@
                         Flare Linux<br />
                         <span style="color: #fff; opacity: .7;" class="lead">A custom-built GNU/Linux stack to run Flare server nodes</span>
                     </div><br />
-                    <a id="try-now" href="#howto" class="btn btn-red btn-effect" >Try Now</a>
+                    <button id="try-now" type="button" class="btn btn-red btn-effect" style="z-index: 9997;" >Try Now</button>
                 </div>
             </div>
         </div>
@@ -203,6 +203,21 @@
 <?php if ($view['bodyjs'] === 1): ?>
     <?=$this->section('bodyjs', $this->fetch('bodyjs', ['view' => $view]))?>
 <?php endif ?>
+
+<script>
+    document.getElementById("try-now").addEventListener('click', function () {
+        document.getElementById("howto").scrollIntoView({
+            behavior: 'smooth', // Optional: for smooth scrolling animation
+            block: 'start'      // Optional: align the element to the top of the viewport
+        });
+    });
+    document.getElementById("try-now").addEventListener('touchstart', function () {
+        document.getElementById("howto").scrollIntoView({
+            behavior: 'smooth', // Optional: for smooth scrolling animation
+            block: 'start'      // Optional: align the element to the top of the viewport
+        });
+    });
+</script>
 
 <script src="<?=$view['urlbaseaddr'] ?>js/copyclip.js"></script>
 
