@@ -81,26 +81,11 @@ $(function() {
 
 
 
-$(document).ready(function(){
+$(document).ready(function() {
 
 	/* ========================================================================= */
 	/*	Menu item highlighting
 	/* ========================================================================= */
-
-	jQuery('#body').singlePageNav({
-		offset: jQuery('#nav').outerHeight(),
-		filter: ':not(.external)',
-		speed: 2000,
-		currentClass: 'current',
-		easing: 'easeInOutExpo',
-		updateHash: true,
-		beforeStart: function() {
-			console.log('begin scrolling');
-		},
-		onComplete: function() {
-			console.log('done scrolling');
-		}
-	});
 	
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
