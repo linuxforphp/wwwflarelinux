@@ -22,6 +22,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Fontawesome Icon font -->
+    <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/all.min.css">
     <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/font-awesome.min.css">
     <!-- bootstrap.min -->
     <link rel="stylesheet" href="<?=$view['urlbaseaddr'] ?>css/jquery.fancybox.css">

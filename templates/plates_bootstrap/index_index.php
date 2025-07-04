@@ -161,7 +161,7 @@
 
                     <ul class="social-button">
                         <li class="wow animated zoomIn"><a href="https://facebook.com/asclinux" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                        <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://twitter.com/linuxforphp" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://x.com/linuxforphp" target="_blank"><i class="fa fa-brands fa-x-twitter fa-2x"></i></a></li>
                         <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://instagram.com/linuxforphp" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
                     </ul>
 
