@@ -114,7 +114,7 @@
                         <span class="text-danger">!! PLEASE NOTE !!</span><br />
                         You can run the server in interactive mode by removing the 'd' option, like so:<br /><br />
                         <span class="command-styling">docker run -it [...]</span><br /><br /><br />
-                        <span class="small">You can find the Flare Network code repository at: <a href="https://github.com/flare-foundation/flare" target="_blank">https://github.com/flare-foundation/flare</a></span>
+                        <span class="small">You can find the Flare Network code repository at: <a href="https://github.com/flare-foundation/go-flare" target="_blank">https://github.com/flare-foundation/go-flare</a></span>
                     </p>
                     <hr>
                 </div>
