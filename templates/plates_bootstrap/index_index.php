@@ -151,7 +151,7 @@
                     <div class="sec-title text-center">
                         <h3 class="wow animated fadeInDown blue">Start testing the <i style="text-decoration: underline #ed658c; font-style: normal;">Flare</i> API:</h3>
                         <ul class="text-md howtoflarelinux">
-                            <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">Use <a class="dark-link" href="https://www.postman.com/" target="_blank">Postman</a> to start querying your server's API: <a class="dark-link" href="https://youtu.be/NPvu6xJ7tsk?t=2447" target="_blank">VIDEO TUTORIAL</a>,</li>
+                            <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">Use <a class="dark-link" href="https://www.postman.com/" target="_blank">Postman</a> to start querying your server's API.</li>
                             <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">Make sure the "C" chain is bootstrapped (/home/flareuser/.flare/logs/C.log), before making other queries!</li>
                             <li class="wow animated fadeInDown" style="visibility: visible; animation-name: ;">To stop the Flare server, please enter the following command (or press <span class="command-styling">Ctrl+C</span>):</li>
                         </ul>
