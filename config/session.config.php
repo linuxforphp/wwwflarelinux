@@ -16,7 +16,7 @@ $baseConfig['session'] = [
     ],
     'session_name' => 'PHPSESSION',
     'session_path' => '/',
-    'session_domain' => 'IPADDRESS',
+    'session_domain' => 'flarelinux.xyz',
     'session_secure' => true,
     'session_httponly' => false,
     'session_id_length' => 32,
