@@ -67,7 +67,7 @@
                     </div>
                     <div class="owl-carousel owl-theme wow animated fadeInUp">
                         <div class="item testimonial-item text-center">
-                            <img src="<?=$view['urlbaseaddr'] ?>img/Logo-Corporate-Light.svg" alt="About FTSO Canada">
+                            <img src="<?=$view['urlbaseaddr'] ?>img/Logo-Corporate-Light.svg" alt="About Flare linux">
                             <div class="clearfix">
                                 <span style="font-size: 25px;">Linux for PHP (LFPHP)</span>
                                 <p style="font-size: 19px; color: rgba(255,255,255,0.7);">Flare linux is built on Linux for PHP, a cutting-edge, lightweight version of Linux with all the software needed to easily compile and/or use any version of PHP.
