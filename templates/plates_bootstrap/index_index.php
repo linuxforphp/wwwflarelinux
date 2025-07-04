@@ -124,7 +124,7 @@
                 <div class="sec-title text-center">
                     <h3 class="wow animated bounceInRight">Start testing the Flare API:</h3>
                     <ul class="text-md howtoflarelinux">
-                        <li class="wow animated bounceInRight">Use <a href="https://www.postman.com/" target="_blank">Postman to start querying</a> your server's API: <a href="https://youtu.be/NPvu6xJ7tsk?t=2447" target="_blank">VIDEO TUTORIAL</a>,</li>
+                        <li class="wow animated bounceInRight">Use <a href="https://www.postman.com/" target="_blank">Postman to start querying</a> your server's API.</li>
                         <li class="wow animated bounceInLeft">Make sure the "C" chain is bootstrapped (/home/flareuser/.flare/logs/C.log), before making other queries!</li>
                         <li class="wow animated bounceInRight">To stop the Flare server, please enter the following command (or press <span class="command-styling">Ctrl+C</span>):</li>
                     </ul>
