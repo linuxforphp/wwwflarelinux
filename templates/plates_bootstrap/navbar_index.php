@@ -48,7 +48,7 @@ Fixed Navigation
             </nav>
             <nav id="donate" class="collapse navbar-collapse navbar-right" role="navigation">
                 <ul id="nav" class="nav navbar-nav">
-                    <li><a href="#" class="btn btn-white btn-effect" style="margin-right: 25px; height: 56px !important; margin-top: 10px; line-height: 56px !important; opacity: 1; width: 180px;" onclick="getDocsPageNewTab(1, 'https://linuxforphp.net')">Donate</a></li>
+                    <li><a href="#" id="ppDonateButton" class="btn btn-white btn-effect ClassyPaypal-button ClassyPaypal-type-donate ClassyPaypal-style-default ClassyPaypal-transit" data-business="admin@asclinux.net" data-return="" data-cancel_return="" data-item_name="Flare Linux" data-amount="0" data-currency_code="USD" style="margin-right: 25px; height: 56px !important; margin-top: 10px; line-height: 56px !important; opacity: 1; width: 180px;">Donate</a></li>
                 </ul>
             </nav>
         </div>

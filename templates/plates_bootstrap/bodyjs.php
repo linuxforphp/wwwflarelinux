@@ -15,6 +15,8 @@
 <script src="<?=$view['urlbaseaddr'] ?>js/bootstrap.js"></script>
 <!-- Single Page Nav -->
 <script src="<?=$view['urlbaseaddr'] ?>js/jquery.singlePageNav.min.js"></script>
+<!-- Paypal -->
+<script src="<?=$view['urlbaseaddr'] ?>js/jquery.classypaypal.js"></script>
 <!-- jquery.fancybox.pack -->
 <script src="<?=$view['urlbaseaddr'] ?>js/jquery.fancybox.pack.js"></script>
 <!-- Owl Carousel -->
@@ -66,23 +68,7 @@
             url = delegationurl;
 
             location.href = url;
-        } else if (option === 2) {
-            url = 'https://flare.xyz/ftso-a-breakdown/';
-
-            window.open(url, '_blank').focus();
-        } else if (option === 3) {
-            url = 'https://portal.flare.network/';
-
-            window.open(url, '_blank').focus();
-        } else if (option === 4) {
-            url = 'https://flare-explorer.flare.network/';
-
-            window.open(url, '_blank').focus();
-        } else if (option === 5) {
-            url = 'https://metamask.io/download/';
-
-            window.open(url, '_blank').focus();
-        }
+        };
     }
 </script>
 

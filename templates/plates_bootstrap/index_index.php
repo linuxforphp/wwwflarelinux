@@ -220,6 +220,7 @@
 </script>
 
 <script src="<?=$view['urlbaseaddr'] ?>js/copyclip.js"></script>
+<script src="<?=$view['urlbaseaddr'] ?>js/pp-donate.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="<?=$view['urlbaseaddr'] ?>js/ie10-viewport-bug-workaround.js"></script>
