@@ -126,7 +126,7 @@
                 <div class="row">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <pre><code class="pre-code-custom">docker run -dit --restart=always -e FLARE_BIND_ADDRESS=0.0.0.0 -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.2.0-1.11.0 flare --flare-coston2</code></pre>
+                        <pre><code class="pre-code-custom">docker run -dit --restart=always -e FLARE_BIND_ADDRESS=0.0.0.0 -p 9650:9650 --name my_flare_server asclinux/flarelinux:1.2.0-1.11.13 flare --flare-coston2</code></pre>
                     </div>
                     <div class="col-sm-2">
                         <span title="Copy" data-toggle="tooltip" style="display: block; position: relative; top: 50%; transform: translateY(40%);">
